@@ -36,8 +36,7 @@ def getTwitterFollowers(driver):
     driver.get(URL3)
     time.sleep(4)
 
-    followers_twitter = driver.find_element_by_xpath\
-        ('#XPATH FOR TWITTER PAGE')
+    followers_twitter = driver.find_element_by_xpath('#XPATH FOR TWITTER PAGE')
 
     followers_value_twitter = followers_twitter.text
     followers_value_twitter_new = followers_value_twitter.replace(',','')
