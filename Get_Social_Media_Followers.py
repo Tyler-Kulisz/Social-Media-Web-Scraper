@@ -46,7 +46,7 @@ def getTwitterFollowers(driver):
 
 def main():
 
-    file_path = r"#ABSOLUTE PATH OF CHROMIUM DRIVER" #need to put r to make the string raw so that :\Users can get passed
+    file_path = r"#ABSOLUTE PATH OF CHROMIUM DRIVER"
     driver = webdriver.Chrome(file_path)
 
     followers_list =[]
